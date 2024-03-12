@@ -3,22 +3,32 @@
   <head>
     <meta charset="UTF-8">
     <title>A Digital CV</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
     <main>
-      <section>
+      <nav>
+        <ul>
+          <li><a href="#profile">About Me</a></li>
+          <li><a href="#summary">Bio</a></li>
+          <li><a href="#edu">Education</a></li>
+          <li><a href="#techstack">Tech</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <section id="profile">
       <img src="./img/profile_pic.jpeg" alt="profile" height="200" width="150">
         <h1>Ian Rones</h1>
         <p>Email: <a href="#">ronesian10@gmail.com</a></p>
         <p>Phone: (702) 409-6712</p>
       </section>
       <hr>
-      <section>
+      <section id="summary">
         <h2>Summary</h2>
         <p>Hello, my name is Ian Rones. I am an aspriring software developer who currently works in the fitness industry. I graduated from college with a Computer Science degree, but I decided to go into a different field after trying to job search alone. My purpose behind coming to Springboard is to get into the tech industry once again and pursue job security while also pursuing my fitness career. My hobbies inlcude shooting and creating fitness content, paint nights, music festivals, and spending quality time with my partner.</p>
       </section>
       <hr>
-      <section>
+      <section id="edu">
         <h2>Education</h2>
         <ul>
           <li><strong>College: </strong>College <em>Dominican University of California</em>: graduation 2019</li>
@@ -26,7 +36,7 @@
         </ul>
       </section>
       <hr>
-      <section>
+      <section id="techstack">
         <h2>Technologies</h2>
         <h3>Web Development</h3>
         <table>
@@ -83,7 +93,7 @@
       <!--Section for Achievements-->
       <!--Section for Projects-->
       <!-- Section for Contact Form -->
-      <form action="#">
+      <form action="#" id="contact">
         <fieldset>
           <legend><strong>Contact Me!</strong></legend>
         <label for="name">Full Name</label>
