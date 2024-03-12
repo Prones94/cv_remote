@@ -82,6 +82,42 @@
       </section>
       <!--Section for Achievements-->
       <!--Section for Projects-->
+      <!-- Section for Contact Form -->
+      <form action="#">
+        <fieldset>
+          <legend><strong>Contact Me!</strong></legend>
+        <label for="name">Full Name</label>
+        <input type="text" name="name" placeholder="Enter Your Full Name" required>
+        <br>
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Enter Your Email Address" required>
+        <br>
+        <label for="number">Phone Number</label>
+        <input type="number" name="number" placeholder="Enter Your Phone Number" required>
+        <br>
+        <label for="contact">How Should I contact You?</label>
+        <label>
+          <input type="radio" name="contact" value="phone" placeholder="Phone Number"> Phone
+        </label>
+        <label>
+          <input type="radio" name="contact" value="email" placeholder="Email"> Email
+        </label>
+        <br>
+        <label for="reason">Reason for Contact</label>
+        <select name="reason">
+          <option value="">Choose option below:</option>
+          <option value="job">Job Offer</option>
+          <option value="collab">Collaborations</option>
+          <option value="feedback">Feedback</option>
+        </select>
+        <br>
+        <label for="message">Write a brief message why you&apos;re reaching out</label>
+        <br>
+        <textarea name="message" cols="30" rows="10" minlength="1" maxlength="350" required></textarea>
+        <br>
+        <button type="submit">Submit Form</button>
+      </fieldset>
+      </form>
     </main>
   </body>
 </html>
