@@ -1,3 +1,54 @@
 * {
-  
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  font-family: Inter, Impact;
+}
+
+body {
+  color: #d1dbe4;
+  background-color: #476f95;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-shadow: 2px 2px #a3b7ca;
+}
+
+section {
+  margin: 1em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.navbar {
+  margin: 0 auto;
+  width: 60vw;
+  outline: 2px solid black;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #d1dbe4;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  padding: 1em 0;
+}
+
+input[type=text], input[type=email], input[type=number] {
+  background-color: #fff;
+}
+
+
+textarea {
+  background: rgba(25,74,122,0.5);
 }
