@@ -1,6 +1,6 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 5px;
+  padding: 1px;
   background: none;
   border: none;
   font-family: Inter, Impact;
@@ -8,7 +8,7 @@
 
 body {
   color: #d1dbe4;
-  background-color: #476f95;
+  background-color: #476f95;;
 }
 
 a {
@@ -20,7 +20,14 @@ a:hover {
 }
 
 section {
-  margin: 1em;
+  display:border-box;
+  border: 1px solid lightsteelblue;
+  margin: 1px ;
+}
+
+#profile img {
+  border-radius: 20%;
+  border: 8px solid rgba(98, 30, 171, 0.5);
 }
 
 ul {
@@ -38,6 +45,7 @@ ul {
 
 h2 {
   text-align: center;
+  padding-bottom: 5px;
 }
 
 h3 {
@@ -51,4 +59,16 @@ input[type=text], input[type=email], input[type=number] {
 
 textarea {
   background: rgba(25,74,122,0.5);
+}
+
+/* Form Elements */
+form * {
+  margin: 10px;
+  outline: none;
+}
+
+form button:hover {
+  border:5px solid  #476f95;
+  border-radius: 12%;
+  background-color: white;
 }
