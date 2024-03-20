@@ -25,9 +25,25 @@ section {
   margin: 1px ;
 }
 
+#profile {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#profile h1 {
+  align-self: center;
+}
+
+#profile p {
+  align-self: flex-end;
+
+}
+
 #profile img {
-  border-radius: 20%;
-  border: 8px solid rgba(98, 30, 171, 0.5);
+  border-radius: 50%;
+  /* border: 8px solid rgba(98, 30, 171, 0.5); */
+  width: 18%;
 }
 
 ul {
